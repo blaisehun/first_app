@@ -8,3 +8,13 @@ Started GET "/rails/info/properties" for 127.0.0.1 at 2012-03-29 12:17:32 +0200
 Processing by Rails::InfoController#properties as */*
   Rendered inline template (1.9ms)
 Completed 200 OK in 11ms (Views: 10.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/rails.png" for 127.0.0.1 at 2012-03-29 13:05:45 +0200
+Served asset /rails.png - 304 Not Modified (79ms)
+
+
+Started GET "/rails/info/properties" for 127.0.0.1 at 2012-03-29 13:05:47 +0200
+Processing by Rails::InfoController#properties as */*
+  Rendered inline template (2.1ms)
+Completed 200 OK in 12ms (Views: 11.3ms | ActiveRecord: 0.0ms)
